@@ -1,0 +1,58 @@
+misc:
+  commands-blocked: ""
+  spectate-blocked: ""
+  hotbar-tp-blocked: ""
+actionbar:
+  death: ''
+  hardcore: ''
+  kill:
+    - ""
+    - ""
+    - ""
+titles:
+  killed:
+    - ""
+    - ""
+  killed-by-player:
+    - ""
+    - ""
+subtitles:
+  killed:
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+  killed-by-player:
+    - ""
+    - ""
+    - ""
+    - ""
+time:
+  singular: ""
+  plural: ""
+errors:
+  actionbar: "%player%"
+  title: "%player%"
+  sound: "%sound%"
+  spawn: "%player% %type%"
+commands:
+  help:
+    - ""
+    - ""
+    - ""
+    - ""
+  reload: ""
+  no-perm: ""
+  spawn-set: "%type%"
+plugin:
+  incompatible:
+    - "%server_version%"
+    - ""
+    - ""
+  enabled:
+    - "%plugin_version%"
+  disabled:
+    - "%plugin_version%"

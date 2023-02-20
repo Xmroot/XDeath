@@ -1,0 +1,14 @@
+name: XDeath
+main: me.rick.xms.XDeath
+description: Plugin de tela da morte igual GTAV
+version: 1.5
+author: Rick
+load: POSTWORLD
+depend: [ProtocolLib]
+softdepend: [PlaceholderAPI]
+api-version: 1.13
+
+commands:
+  xms:
+    description: Comando principal
+    usage: /<command>

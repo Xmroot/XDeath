@@ -1,0 +1,48 @@
+misc:
+  language: 'pt-BR'
+  use-packet-event-handler: false
+  use-safe-teleport: true
+  use-default-world-spawn: true
+  use-kill-camera: true
+sound:
+  type:
+    death:
+    - BLAZE_DEATH
+    - ANVIL_LAND
+    - ITEM_PICKUP
+    - ENDERMAN_DEATH
+    countdown:
+    - NOTE_BASS_DRUM
+    - CLICK
+    respawn:
+    - NOTE_PLING
+    - ORB_PICKUP
+    - LEVEL_UP
+    kill:
+    - SKELETON_DEATH
+    - GLASS
+  volume:
+    death: 1.0
+    countdown: 1.0
+    respawn: 1.0
+    kill: 1.0
+  pitch:
+    death: 1.0
+    countdown: 1.0
+    respawn: 1.0
+    kill: 1.0
+animation:
+  type: "BLOOD"
+time:
+  duration: 10
+permissions:
+  instant-respawn: 'xdeath.respawn'
+  keep-xp: 'xdeath.xp'
+  vip-spawn: 'xdeath.vip'
+  admin: 'xdeath.admin'
+spectator-settings:
+  queue-teleport: true
+  allow-spectate: false
+  allow-teleport-with-keys: false
+  allow-move: true
+  allow-commands: false
